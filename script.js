@@ -2,15 +2,15 @@ const $container = document.getElementById('container')
 const $display = document.getElementById('display')
 
 const listOfDescriptions = [
-    `This is description 1.`,
-    `This is description 2.`,
-    `This is description 3.`,
-    `This is description 4.`,
-    `This is description 5.`,
-    `This is description 6.`,
-    `This is description 7.`,
-    `This is description 8.`,
-    `This is description 9.`,
+    `“Be yourself CLICK THE IMAGE.”.`,
+    `“ so little time. CLICK THE IMAGE”.`,
+    `“Be the change CLICK THE IMAGE.”.`,
+    `“We accept the love CLICK THE IMAGE.”.`,
+    `“Be yourself; CLICK THE IMAGE.”.`,
+    `“S so little time CLICK THE IMAGE.”.`,
+    `“We accept the love CLICK THE IMAGE.”.`,
+    `“Be the change CLICK THE IMAGE.”.`,
+    `“We accept the loveCLICK THE IMAGE.”.`,
     `This is description 10.`,
     `This is description 11.`,
     `This is description 12.`
@@ -20,7 +20,7 @@ const listOfDescriptions = [
 ]
 
 $container.addEventListener('click', function (event) {
-    $display.textContent = listOfDescriptions[event.target.textContent[10] - 1]
+    $display.textContent = listOfDescriptions[event.target.textContent[7] - 1]
 })
 
 
